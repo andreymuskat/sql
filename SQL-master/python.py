@@ -4,7 +4,11 @@ from flask import Flask, render_template, redirect, url_for, requ
 
 connection = pymysql.connect(host='localhost',
                                user='root',
+<<<<<<< HEAD
                                password='belka20050121',
+=======
+                               password='belka'
+>>>>>>> 15e293b8efaa9bdc8b5423859e6968a42afb6840
                                db='mydb',
                                charset='utf8mb4',
                                cursorclass=pymysql.cursors.DictCursor)
